@@ -14,6 +14,8 @@
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
 		BD47B55B2268EDA10060BDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B55A2268EDA10060BDF3 /* main.m */; };
+		E9E77B3B245EE2CE008D4135 /* CodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E77B3A245EE2CE008D4135 /* CodeDescription.m */; };
+		E9E77B3C245EE2CE008D4135 /* CodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E77B3A245EE2CE008D4135 /* CodeDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		BD47B5572268EDA10060BDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD47B5592268EDA10060BDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD47B55A2268EDA10060BDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9E77B39245EE2B6008D4135 /* CodeDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeDescription.h; sourceTree = "<group>"; };
+		E9E77B3A245EE2CE008D4135 /* CodeDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */,
 				25943E75245B030B008FF836 /* Converter.h */,
 				25943E73245B030B008FF836 /* Converter.m */,
+				E9E77B39245EE2B6008D4135 /* CodeDescription.h */,
+				E9E77B3A245EE2CE008D4135 /* CodeDescription.m */,
 			);
 			path = 1;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25787FEA243F8E7B0066701D /* PNConverterTests.m in Sources */,
+				E9E77B3C245EE2CE008D4135 /* CodeDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +229,7 @@
 				25943E76245B030B008FF836 /* Converter.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
+				E9E77B3B245EE2CE008D4135 /* CodeDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
